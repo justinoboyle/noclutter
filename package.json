@@ -1,0 +1,19 @@
+{
+  "name": "noclutter",
+  "version": "1.0.0",
+  "description": "Hide apps from showing their icons in the Dock.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinoboyle/noclutter.git"
+  },
+  "author": "Justin O'Boyle <justinjoboyle@me.com> (https://www.justinoboyle.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinoboyle/noclutter/issues"
+  },
+  "homepage": "https://github.com/justinoboyle/noclutter#readme"
+}
