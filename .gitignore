@@ -1,5 +1,6 @@
 temp/*
 build/*
 bin/*
+nwjs.app
 .DS_Store
 

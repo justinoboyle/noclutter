@@ -11,6 +11,7 @@ rm -rf ../bin/nwjs.app
 wget http://dl.nwjs.io/v0.12.3/nwjs-v0.12.3-osx-x64.zip -O nw.zip
 unzip nw.zip -d ../temp/
 mv ../temp/nwjs-v0.12.3-osx-x64/nwjs.app ../bin/nwjs.app
+cp -R ../bin/nwjs.app ../nwjs.app
 rm -rf ../temp/nwjs-v0.12.3-osx-x64
 rm -rf nw.zip
 echo Done fetching dependencies.
