@@ -2,7 +2,7 @@
   "name": "noclutter",
   "version": "1.0.0",
   "description": "Hide apps from showing their icons in the Dock.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "bash ./build.sh",
     "workspace": "bash ./scripts/fetchDepend.sh"
