@@ -16,5 +16,8 @@ if [ ! -f /bin/nwjs.app ]; then
 fi
 echo ""
 echo Compressing project...
-zip -r ./temp/${PWD##*/}.nw * -x "./scripts/*" "./temp/*" "./build/*" "./bin/*" "./build.sh"
-
+zip -r ./temp/app.nw * -x "./scripts/*" "./temp/*" "./build/*" "./bin/*" "./build.sh"
+cp -R ./bin/nwjs.app ./temp/nwjs.app
+mv ./temp/app.nw ./temp/nwjs.app/Contents/Resources/app.nw
+mv ./temp/nwjs.app ./build/${PWD##*/}.app
+echo Done! 
