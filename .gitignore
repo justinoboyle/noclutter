@@ -1,4 +1,5 @@
 temp/*
 build/*
+bin/*
 .DS_Store
 

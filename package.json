@@ -4,7 +4,8 @@
   "description": "Hide apps from showing their icons in the Dock.",
   "main": "index.js",
   "scripts": {
-    "test": "make"
+    "build": "bash ./build.sh",
+    "workspace": "bash ./scripts/fetchDepend.sh"
   },
   "repository": {
     "type": "git",
